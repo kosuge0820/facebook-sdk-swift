@@ -1024,12 +1024,12 @@
 		8115C0CF1CFE540D001FF33B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Facebook Inc";
 				TargetAttributes = {
 					8115C0D71CFE540D001FF33B = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 					};
 					811C5DF21CFFD36600E4A925 = {
 						LastSwiftMigration = 0800;
@@ -1433,6 +1433,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81654DD41D356E9A006401F1 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 			};
 			name = Debug;
 		};
@@ -1440,6 +1444,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81654DD51D356E9A006401F1 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 			};
 			name = Release;
 		};
@@ -1447,6 +1455,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81654DC41D356E9A006401F1 /* FacebookCore.xcconfig */;
 			buildSettings = {
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1454,6 +1464,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81654DC41D356E9A006401F1 /* FacebookCore.xcconfig */;
 			buildSettings = {
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
